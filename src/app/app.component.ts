@@ -1,8 +1,8 @@
-import {Component} from '@angular/core';
-import {HomeComponent} from './home/home.component';
+import { Component } from "@angular/core";
+import { HomeComponent } from "./home/home.component";
 
 @Component({
-  selector: 'app-root',
+  selector: "app-root",
   standalone: true,
   imports: [HomeComponent],
   template: `
@@ -15,8 +15,8 @@ import {HomeComponent} from './home/home.component';
       </section>
     </main>
   `,
-  styleUrls: ['./app.component.css'],
+  styleUrls: ["./app.component.css"],
 })
 export class AppComponentLJH {
-  title = 'homes';
+  title = "homes";
 }

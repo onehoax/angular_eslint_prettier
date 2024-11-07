@@ -6,7 +6,8 @@
     "start": "NG_BUILD_PARALLEL_TS=0 ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "format": ""
   },
   "private": true,
   "dependencies": {
@@ -26,6 +27,7 @@
     "@angular/cli": "^18.0.0",
     "@angular/compiler-cli": "^18.0.0",
     "@onehoax/eslint_angular": "1.0.0",
+    "@onehoax/prettier_base": "1.0.0",
     "@types/jasmine": "~5.1.0",
     "@types/node": "^16.11.35",
     "copyfiles": "^2.4.1",
@@ -37,7 +39,6 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "prettier": "3.3.3",
     "protractor": "~7.0.0",
     "ts-node": "~10.9.0",
     "typescript": "~5.5.0"
