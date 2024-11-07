@@ -28,7 +28,7 @@ import cli from "@angular/cli"
 })
 export class HomeComponent {
   readonly baseUrl = 'https://angular.dev/assets/images/tutorials/common';
-
+  
   housingLocationList: HousingLocation[] = [
     {
       id: 0,

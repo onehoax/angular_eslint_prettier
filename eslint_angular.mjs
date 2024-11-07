@@ -1,10 +1,11 @@
-import baseConfig from "./eslint_base.mjs";
+// import baseConfig from "./eslint_base.mjs";
+import baseConfig from "@onehoax/eslint_base";
 import angularlint from "angular-eslint";
 
 const tsFiles = ["src/**/*.ts", "test/**/*.ts"];
 const templateFiles = ["src/**/*.html"];
 
-const baseConfigName = "ndg/angular";
+const baseConfigName = "angular";
 
 export default {
   ts: [
@@ -16,7 +17,7 @@ export default {
         rules: {
           ...config.rules,
           "@angular-eslint/component-selector": [
-            "warn",
+            "error",
             {
               type: "element",
               prefix: "app",
