@@ -7,8 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "lint": "eslint .",
-    "format:check": "prettier -c './src/**/*.ts' './test/**/*.ts'",
-    "format:write": "prettier -w './src/**/*.ts' './test/**/*.ts'"
+    "format:check": "prettier -c './src/**/*.(ts|js|json|html|css|scss)' './test/**/*.(ts|js|json|html|css|scss)'",
+    "format:write": "prettier -w './src/**/*.(ts|js|json|html|css|scss)' './test/**/*.(ts|js|json|html|css|scss)'"
   },
   "private": true,
   "dependencies": {
