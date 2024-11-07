@@ -2,9 +2,10 @@ import {Component} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {HousingLocationComponent} from '../housing-location/housing-location.component';
 import {HousingLocation} from '../housinglocation';
+import cli from "@angular/cli"
 
 @Component({
-  selector: 'app-home',
+  selector: 'someCompoen',
   standalone: true,
   imports: [CommonModule, HousingLocationComponent],
   template: `
@@ -19,6 +20,8 @@ import {HousingLocation} from '../housinglocation';
         *ngFor="let housingLocation of housingLocationList"
         [housingLocation]="housingLocation"
       ></app-housing-location>
+      <div *ngIf="1 == 1">
+      </div>
     </section>
   `,
   styleUrls: ['./home.component.css'],

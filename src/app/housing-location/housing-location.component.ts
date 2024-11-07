@@ -16,6 +16,7 @@ import {HousingLocation} from '../housinglocation';
       />
       <h2 class="listing-heading">{{ housingLocation.name }}</h2>
       <p class="listing-location">{{ housingLocation.city }}, {{ housingLocation.state }}</p>
+      <div *ngIf="1 != 1"></div>
     </section>
   `,
   styleUrls: ['./housing-location.component.css'],
