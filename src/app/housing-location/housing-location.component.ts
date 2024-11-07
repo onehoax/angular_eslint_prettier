@@ -6,7 +6,7 @@ import {HousingLocation} from '../housinglocation';
   selector: 'app-housing-location',
   standalone: true,
   imports: [CommonModule],
-  template: `
+  /* template: `
     <section class="listing">
       <img
         class="listing-photo"
@@ -18,7 +18,8 @@ import {HousingLocation} from '../housinglocation';
       <p class="listing-location">{{ housingLocation.city }}, {{ housingLocation.state }}</p>
       <div *ngIf="1 != 1"></div>
     </section>
-  `,
+  `, */
+  templateUrl: './housing-location.component.html',
   styleUrls: ['./housing-location.component.css'],
 })
 export class HousingLocationComponent {
