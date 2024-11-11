@@ -1,4 +1,4 @@
-import angularConfigs from "@onehoax/eslint_prettier/eslint_angular";
+import angularConfigs from "@onehoax/eslint_prettier/eslint/angular";
 
 export default [
   ...angularConfigs.ts.map((config) => {

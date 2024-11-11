@@ -1,3 +1,3 @@
-import baseConfig from "@onehoax/eslint_prettier/prettier_base";
+import baseConfig from "@onehoax/eslint_prettier/prettier/base";
 
 export default baseConfig;
