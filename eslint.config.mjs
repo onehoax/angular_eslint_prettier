@@ -11,7 +11,7 @@ export default [
           "error",
           {
             type: "element",
-            prefix: "someprefix",
+            prefix: "anotherprefix",
             style: "kebab-case",
           },
         ],
