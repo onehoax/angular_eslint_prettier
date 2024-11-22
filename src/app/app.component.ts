@@ -17,6 +17,6 @@ import { HomeComponent } from "./home/home.component";
   `,
   styleUrls: ["./app.component.css"],
 })
-export class AppComponentLJH {
+export class AppComponent {
   title = "homes";
 }

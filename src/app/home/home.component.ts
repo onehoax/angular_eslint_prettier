@@ -5,7 +5,7 @@ import { HousingLocation } from "../housinglocation";
 import cli from "@angular/cli";
 
 @Component({
-  selector: "someCompoen",
+  selector: "app-home",
   standalone: true,
   imports: [CommonModule, HousingLocationComponent],
   template: `
